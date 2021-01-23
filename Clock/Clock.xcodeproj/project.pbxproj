@@ -12,6 +12,7 @@
 		C5D39F4D25BC973800ADC23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D39F4C25BC973800ADC23F /* Assets.xcassets */; };
 		C5D39F5025BC973800ADC23F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D39F4F25BC973800ADC23F /* Preview Assets.xcassets */; };
 		C5D39F5925BC989D00ADC23F /* NeedleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D39F5825BC989D00ADC23F /* NeedleView.swift */; };
+		C5D39F5E25BC9A6600ADC23F /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D39F5D25BC9A6600ADC23F /* BarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C5D39F4F25BC973800ADC23F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5D39F5125BC973800ADC23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D39F5825BC989D00ADC23F /* NeedleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleView.swift; sourceTree = "<group>"; };
+		C5D39F5D25BC9A6600ADC23F /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +77,18 @@
 			isa = PBXGroup;
 			children = (
 				C5D39F4A25BC973700ADC23F /* ContentView.swift */,
-				C5D39F5825BC989D00ADC23F /* NeedleView.swift */,
+				C5D39F6025BC9B5600ADC23F /* ClockView */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C5D39F6025BC9B5600ADC23F /* ClockView */ = {
+			isa = PBXGroup;
+			children = (
+				C5D39F5D25BC9A6600ADC23F /* BarView.swift */,
+				C5D39F5825BC989D00ADC23F /* NeedleView.swift */,
+			);
+			path = ClockView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D39F5E25BC9A6600ADC23F /* BarView.swift in Sources */,
 				C5D39F5925BC989D00ADC23F /* NeedleView.swift in Sources */,
 				C5D39F4B25BC973700ADC23F /* ContentView.swift in Sources */,
 				C5D39F4925BC973700ADC23F /* ClockApp.swift in Sources */,
