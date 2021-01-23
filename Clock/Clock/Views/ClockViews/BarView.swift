@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// TODO: improve the placement
 struct BarView: View {
     var proxy: GeometryProxy
     var rotations: Int
@@ -20,7 +21,7 @@ struct BarView: View {
             Rectangle()
                 .fill(color)
                 .frame(width: size.width, height: size.height)
-                .offset(y: -(radius))
+                .offset(y: -(radius - (size.height / 2)))
                 .rotationEffect(.degrees((360.0 / Double(rotations)) * Double(i)))
         }
     }

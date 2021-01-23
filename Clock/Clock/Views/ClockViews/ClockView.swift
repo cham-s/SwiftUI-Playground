@@ -33,7 +33,7 @@ struct ClockView: View {
                 Circle()
                 MinuteBar(proxy: proxy, rotations: 60,
                         size: CGSize(width: 3, height: 10),
-                        color: .red)
+                        color: .white)
                 HourBar(proxy: proxy, rotations: 12,
                         size: CGSize(width: 5, height: 20),
                         color: .blue)
@@ -41,8 +41,8 @@ struct ClockView: View {
                 HourNeedle(proxy: proxy,
                        angle: hourAngle,
                        size: CGSize(width: 8, height: radius),
-                       color: .black)
-                    .scaleEffect(y: 0.70)
+                       color: .white)
+                    .scaleEffect(y: 0.60)
                 
                 // seconds
                 SecondNeedle(proxy: proxy,
